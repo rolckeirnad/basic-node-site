@@ -36,4 +36,8 @@ const server = http.createServer((req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
+<<<<<<< HEAD
 server.listen(5000,()=>console.log("Server running on port: 5000"))
+=======
+server.listen(PORT,()=>console.log("Server running on port: 5000"))
+>>>>>>> a735d29 (Configure port number)
